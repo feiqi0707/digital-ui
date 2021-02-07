@@ -1,6 +1,6 @@
-# digitalcnzz-ui-library
+# digitalcn-mobile-ui
 
- 数字郑州前端UI组件库
+ 数字郑州前端-移动端UI组件库
 
 ## Installation
 ```shell
@@ -17,9 +17,9 @@ yarn add digital-ui
 
 ```javascript
 import Vue from 'vue'
-import {DigitalTab} from 'digital-ui'
+import DigitalUI from 'digital-ui'
 
-Vue.use(DigitalTab)
+Vue.use(DigitalUI)
 // 之后便可在全局使用了
 ```
 

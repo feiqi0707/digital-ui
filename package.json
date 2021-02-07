@@ -1,19 +1,17 @@
 {
-  "name": "digital-ui",
+  "name": "digital-mobile-ui",
   "version": "1.0.0",
-  "description": "mobile-ui components for digitalcnzz",
+  "description": "digital-mobile-ui components for digitalcnzz",
   "author": "admin@digitalcnzz.com",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/feiqi0707/digital-ui.git"
+    "url": "git+https://codeup.teambition.com/5e739cdd493a0908be68a284/digitalzz-web/digitalcnzz-products-fe/digitalcnzz-mobile-ui.git"
   },
   "keywords": [
-    "Vue",
     "component",
     "mobile",
     "ui",
@@ -22,10 +20,10 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/feiqi0707/digital-ui/issues"
+    "url": "https://codeup.teambition.com/5e739cdd493a0908be68a284/digitalzz-web/digitalcnzz-products-fe/digitalcnzz-mobile-ui/issues"
   },
-  "homepage": "https://github.com/feiqi0707/digital-ui#readme",
-  "devDependencies": {
+  "homepage": "https://codeup.teambition.com/5e739cdd493a0908be68a284/digitalzz-web/digitalcnzz-products-fe/digitalcnzz-mobile-ui#readme",
+  "dependencies": {
     "digital-jsapi": "^1.0.21"
   }
 }
