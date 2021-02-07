@@ -1,0 +1,31 @@
+{
+  "name": "digital-ui",
+  "version": "1.0.0",
+  "description": "mobile-ui components for digitalcnzz",
+  "author": "admin@digitalcnzz.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feiqi0707/digital-ui.git"
+  },
+  "keywords": [
+    "Vue",
+    "component",
+    "mobile",
+    "ui",
+    "digitalcnzz",
+    "reusable"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feiqi0707/digital-ui/issues"
+  },
+  "homepage": "https://github.com/feiqi0707/digital-ui#readme",
+  "devDependencies": {
+    "digital-jsapi": "^1.0.21"
+  }
+}
