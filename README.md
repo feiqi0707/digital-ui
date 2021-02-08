@@ -25,7 +25,8 @@ Vue.use(DigitalUI)
 
 ### Example (DigitalTab(可滚动菜单、轮播、展示型组件))
 
-`````` JS
+```
+ JS
 items: {
         contents:
         [
@@ -66,8 +67,6 @@ items: {
         customStyle: {flexGrow: 1}
       },
 ```
-
-
 ## Build Setup
 
 ```bash

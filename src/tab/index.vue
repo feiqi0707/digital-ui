@@ -77,19 +77,5 @@ export default {
 .tab-list{
   background-color: #c5c1c1;
 }
-/*
-.tab-list .tab-item{
-  padding: 5px 20px;
-  height: 50px;
-  background-color: #fff;
-  border-radius: 5px;
-}
-
- .tab-list .tab-item .title{
-   margin-bottom: 2px;
-}
-
-/*.tab-list .tab-item .sub-title{
-} */
 
 </style>
