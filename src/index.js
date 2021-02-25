@@ -1,5 +1,7 @@
-import DigitalTab from './tab/index.vue'
+import DigitalTab from './tab/tabbar'
+import DigitalTabItem from './src/tab-item'
 
 export default {
-  DigitalTab
+  DigitalTab,
+  DigitalTabItem
 }

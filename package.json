@@ -1,6 +1,6 @@
 {
-  "name": "digital-mobile-ui",
-  "version": "1.0.1",
+  "name": "@digitalcnzz/mobile-ui",
+  "version": "1.0.0",
   "description": "digital-mobile-ui components for digitalcnzz",
   "author": "admin@digitalcnzz.com",
   "main": "index.js",
@@ -24,6 +24,6 @@
   },
   "homepage": "https://codeup.teambition.com/5e739cdd493a0908be68a284/digitalzz-web/digitalcnzz-products-fe/digitalcnzz-mobile-ui#readme",
   "dependencies": {
-    "digital-jsapi": "^1.0.28"
+    "@digitalcnzz/jssdk": "^1.0.2",
   }
 }

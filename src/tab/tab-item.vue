@@ -1,11 +1,10 @@
 <template>
-  <div
-    class="digital-tab-item"
-    :style="$parent.value === id ? activeStyle : {}"
-    @click="onItemClicked">
-    <div class="digital-tab-item-icon" v-if="$parent.fixBottom"><slot name="icon"></slot></div>
+  <a class="digital-tab-item"
+       :style="$parent.value === id ? activeStyle : {}"
+       @click="onItemClicked">
+    <div class="digital-tab-item-icon"><slot name="icon"></slot></div>
     <div class="digital-tab-item-label"><slot></slot></div>
-  </div>
+  </a>
 </template>
 
 <script>
@@ -14,7 +13,10 @@ export default {
   computed: {
     activeStyle () {
       return {
-        color: this.$parent.activeColor
+        color: this.$parent.activeColor,
+        borderColor: this.$parent.activeColor,
+        borderWidth: this.$parent.lineWidth,
+        borderBottomStyle: 'solid'
       }
     }
   },
@@ -31,15 +33,16 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .digital-tab-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  .digital-tab-item-icon {
+    margin: 0 auto 5px;
+  }
+  .digital-tab-item-label {
+    margin: 0 auto 10px;
+    line-height: 18px;
+  }
 }
-
-.digital-tab-item-icon {
-  margin: 0 auto 5px;
-}
-
 </style>
