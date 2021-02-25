@@ -16,7 +16,10 @@
         <i :class="item.title.icon"></i>
       </div>
       <div class="title" :style="item.title.customStyle">{{ item.title.name }}</div>
-      <div class="sub-title" :style="item.subTitle && item.subTitle.customStyle">{{ item.subTitle && item.subTitle.name }}</div>
+      <div class="sub-title" :style="value === selectId ? {backgroundColor: options.activeColor}  : item.subTitle && item.subTitle.customStyle ">
+        <div class="top">{{ item.subTitle && item.subTitle.name }}</div>
+        <div class="top">{{ item.tag && item.tag.name }}</div>
+      </div>
     </digital-tab-item>
   </digital-tabbar>
 </div>
@@ -75,7 +78,7 @@ export default {
 <style>
 
 .tab-list{
-  background-color: #c5c1c1;
+  background-color: #ffffff;
 }
 
 </style>

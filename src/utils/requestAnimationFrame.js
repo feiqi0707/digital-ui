@@ -4,7 +4,7 @@ export function windowInit () {
   for (var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
     window.requestAnimationFrame = window[vendors[x] + 'RequestAnimationFrame']
     window.cancelAnimationFrame = window[vendors[x] + 'CancelAnimationFrame'] || // name has changed in Webkit
-                                  window[vendors[x] + 'CancelRequestAnimationFrame']
+      window[vendors[x] + 'CancelRequestAnimationFrame']
   }
 
   if (!window.requestAnimationFrame) {

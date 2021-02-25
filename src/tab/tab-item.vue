@@ -1,7 +1,6 @@
 <template>
   <div
     class="digital-tab-item"
-    :style="$parent.value === id ? activeStyle : {}"
     @click="onItemClicked">
     <div class="digital-tab-item-icon" v-if="$parent.fixBottom"><slot name="icon"></slot></div>
     <div class="digital-tab-item-label"><slot></slot></div>
